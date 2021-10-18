@@ -46,3 +46,8 @@ if __name__ == "__main__":
 In Progress. 
 
 https://code-maven.com/mocking-input-and-output-for-python-testing#:~:text=That%20means%20every%20time%20input%20is%20called%20inside,collects%20any%20text%20typed%20in%20on%20the%20keyboard.
+
+## R
+
+### Comment out selection
+Use `CTRL + SHIFT + C`
