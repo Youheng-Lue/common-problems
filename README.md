@@ -51,3 +51,6 @@ https://code-maven.com/mocking-input-and-output-for-python-testing#:~:text=That%
 
 ### Comment out selection
 Use `CTRL + SHIFT + C`
+
+### Prettify Code
+Use `CTRL + I`
