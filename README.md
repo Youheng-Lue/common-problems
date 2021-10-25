@@ -54,3 +54,17 @@ Use `CTRL + SHIFT + C`
 
 ### Prettify Code
 Use `CTRL + I`
+
+
+## Latex
+
+### Figure
+Example:
+
+```
+\begin{figure}
+    \includegraphics[width = \linewidth]{Path to graphic}
+    \label{fig:label}
+    \caption{Caption}
+\end{figure}
+```
