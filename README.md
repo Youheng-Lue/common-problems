@@ -7,6 +7,7 @@ This file is a summary of common Problems and solutions
 
 * Show all sessions `Ctrl+B + S`
 * Return to main `Ctrl+B + D`
+* Kill all sessions `tmux kill-server`
 
 ## Check MD5 Hash on Windows
 **Problem:** You downloaded a file and want to know how to check the MD5 hash on Windows
