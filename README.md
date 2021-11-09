@@ -26,6 +26,11 @@ This file is a summary of common Problems and solutions
 
 
 ## Python
+### IDLE
+
+* Comment a line `alt+3`
+* Uncomment a line `alt+4`
+
 
 ### Some of my function should run a function first
 **Problem:** Some of my functions should always run something else first (e.g. check if key is in ID)
