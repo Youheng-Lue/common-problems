@@ -3,6 +3,8 @@ This file is a summary of common Problems and solutions
 
 ## Bash
 
+* Symbolic link `ln -s [path of the target file] [symbolic name]`
+
 ### Tmux
 
 * Show all sessions `Ctrl+B + S`
