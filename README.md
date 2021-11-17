@@ -5,6 +5,11 @@ This file is a summary of common Problems and solutions
 
 * Symbolic link `ln -s [path of the target file] [symbolic name]`
 
+### grep
+* Grep without: `grep -v`
+* Grep next 20 lines `grep -A20`
+* Grep any char `grep .`
+
 ### Tmux
 
 * Show all sessions `Ctrl+B + S`
