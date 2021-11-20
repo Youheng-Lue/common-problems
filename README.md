@@ -4,6 +4,7 @@ This file is a summary of common Problems and solutions
 ## Bash
 
 * Symbolic link `ln -s [path of the target file] [symbolic name]`
+* Redirect stdin to file `[command] | tee [target file]`
 
 ### grep
 * Grep without: `grep -v`
