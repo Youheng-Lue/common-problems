@@ -7,6 +7,10 @@ This file is a summary of common Problems and solutions
 * Redirect stdin to file `[command] | tee [target file]`
 * Get only first word of line `awk '{print $1;}'`
 
+### prettify things
+* format xml: `xmllint --format -`
+* cat with coloring `pygmentize -g <file>`
+
 ### grep
 * Grep without: `grep -v`
 * Grep next 20 lines `grep -A20`
