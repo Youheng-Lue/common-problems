@@ -1,6 +1,5 @@
 # common-problems
-This file is a summary of common Problems and solutions
-
+This is a cheatsheet for common Problems that I had and their solutions. For problems more related to Hacking see my Repository <a href="https://github.com/Youheng-Lue/art-exploit">art-exploit</a>.
 ## Bash
 
 * Symbolic link `ln -s [path of the target file] [symbolic name]`
