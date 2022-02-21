@@ -6,6 +6,15 @@ This is a cheatsheet for common Problems that I had and their solutions. For pro
 * Redirect stdin to file `[command] | tee [target file]`
 * Get only first word of line `awk '{print $1;}'`
 
+### Script usage
+```bash
+if [ "$#" -ne 1 ]
+then
+    echo "Usage: $0 arg1"
+    exit
+fi
+```
+
 ### prettify things
 * format xml: `xmllint --format -`
 * cat with coloring `pygmentize -g <file>`
@@ -49,7 +58,7 @@ This is a cheatsheet for common Problems that I had and their solutions. For pro
 
 **Solution:**
 Use decorators:
-```
+```python
 def pretty_sumab(func):                                                                                     
     def inner(a,b):                                                                                         
         print(str(a) + " + " + str(b) + " is ", end="")                                                     
@@ -86,7 +95,7 @@ Use `CTRL + I`
 ### Figure
 Example:
 
-```
+```latex
 \begin{figure}
     \includegraphics[width = \linewidth]{Path to graphic}
     \label{fig:label}
