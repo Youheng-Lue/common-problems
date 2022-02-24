@@ -11,7 +11,7 @@ This is a cheatsheet for common Problems that I had and their solutions. For pro
 if [ "$#" -ne 1 ]
 then
     echo "Usage: $0 arg1"
-    exit
+    exit 1
 fi
 ```
 
