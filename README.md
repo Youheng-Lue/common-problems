@@ -6,6 +6,12 @@ This is a cheatsheet for common Problems that I had and their solutions. For pro
 * Redirect stdin to file `[command] | tee [target file]`
 * Get only first word of line `awk '{print $1;}'`
 
+### sed
+* Replace deadbeef with \xde\xad\xbe\xef:
+```bash
+echo deadbeef|sed -E 's/(..)/\\x\1/g'
+```
+
 ### Script usage
 ```bash
 if [ "$#" -ne 1 ]
