@@ -33,7 +33,8 @@ fi
 ### Tmux
 
 * Show all sessions `Ctrl+B + S`
-* Return to main `Ctrl+B + D`
+* 
+eturn to main `Ctrl+B + D`
 * Kill all sessions `tmux kill-server`
 
 ## Check MD5 Hash on Windows
@@ -95,6 +96,8 @@ Use `CTRL + SHIFT + C`
 ### Prettify Code
 Use `CTRL + I`
 
+### Get name of Variable as string
+`deparse(substitute(x))` will return "x"
 
 ## Latex
 
