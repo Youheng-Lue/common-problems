@@ -1,5 +1,8 @@
 # common-problems
 This is a cheatsheet for common Problems that I had and their solutions. For problems more related to Hacking see my Repository <a href="https://github.com/Youheng-Lue/art-exploit">art-exploit</a>.
+## VMWare
+* Enable Shared folder `sudo vmhgfs-fuse .host:/ /mnt/hgfs/ -o allow_other -o uid=1000`
+
 ## Bash
 
 * Symbolic link `ln -s [path of the target file] [symbolic name]`
