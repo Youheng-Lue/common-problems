@@ -5,15 +5,8 @@ This is a cheatsheet for common Problems that I had and their solutions. For pro
 
 ## Bash
 
-* Symbolic link `ln -s [path of the target file] [symbolic name]`
-* Redirect stdin to file `[command] | tee [target file]`
 * Get only first word of line `awk '{print $1;}'`
 
-### sed
-* Replace deadbeef with \xde\xad\xbe\xef:
-```bash
-echo deadbeef|sed -E 's/(..)/\\x\1/g'
-```
 
 ### Script usage
 ```bash
@@ -24,21 +17,12 @@ then
 fi
 ```
 
-### prettify things
-* format xml: `xmllint --format -`
-* cat with coloring `pygmentize -g <file>`
-
 ### grep
 * Grep without: `grep -v`
 * Grep next 20 lines `grep -A20`
 * Grep any char `grep .`
 
-### Tmux
 
-* Show all sessions `Ctrl+B + S`
-* 
-eturn to main `Ctrl+B + D`
-* Kill all sessions `tmux kill-server`
 
 ## Check MD5 Hash on Windows
 **Problem:** You downloaded a file and want to know how to check the MD5 hash on Windows
@@ -57,13 +41,14 @@ eturn to main `Ctrl+B + D`
 
 
 ## Python
-### IDLE
 
-* Comment a line `alt+3`
-* Uncomment a line `alt+4`
+### Flatten 2-D array:
+```python
+matrix = [[1,2], [3,4]]
+flattened = sum(matrix, [])
+```
 
-
-### Some of my function should run a function first
+### Decorators
 **Problem:** Some of my functions should always run something else first (e.g. check if key is in ID)
 
 **Solution:**
@@ -101,6 +86,13 @@ Use `CTRL + I`
 
 ### Get name of Variable as string
 `deparse(substitute(x))` will return "x"
+
+### Tmux
+
+* Show all sessions `Ctrl+B + S`
+* 
+eturn to main `Ctrl+B + D`
+* Kill all sessions `tmux kill-server`
 
 ## Latex
 
