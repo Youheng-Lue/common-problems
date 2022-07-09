@@ -24,13 +24,9 @@ fi
 
 
 
-## Check MD5 Hash on Windows
-**Problem:** You downloaded a file and want to know how to check the MD5 hash on Windows
-
-
-**Solution:**
-- Run cmd
-- Enter: `CertUtil -hashfil %name of file% MD5`. This will return the MD5 Checksum
+## Check Hashes on Windows
+- MD5 Checksum: `CertUtil -hashfile %name of file% MD5`. 
+- SHA-256 Checksum: `Get-fileHash %Filename`
 
 ## Remove first word of each line in Bash
 **Problem:** You copy pasted code from a pdf and need to remove the incices
